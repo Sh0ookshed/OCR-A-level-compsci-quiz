@@ -7,6 +7,7 @@ import pygame, random, sys, time
 from question_choosing.question_bank import question_list
 from question_choosing.randquestion import random_question_chooser
 print(random_question_chooser(question_list))
+
 #initialisation
 pygame.init()
 
@@ -16,6 +17,7 @@ display_x = 800
 display_y = 800
 
 #window setup
+pygame.display.set_caption("OCR computer science quiz!")
 window = pygame.display.set_mode((display_x,display_y))
 
 #program loop
@@ -24,4 +26,5 @@ while running:
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
+            
     pygame.display.update()

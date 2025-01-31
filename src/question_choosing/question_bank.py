@@ -1,4 +1,5 @@
-#questions
+#questions from OCR spec
+
 question_list = [
     ["Explain the difference between lossy and lossless compression, providing examples of each.",
 "Why is compression important when transmitting data over the internet?",
