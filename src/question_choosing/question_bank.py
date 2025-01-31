@@ -23,7 +23,13 @@ question_list = [
 "Compare the roles of a router and a switch in a network.",
 "What are the advantages of using a Virtual Private Network (VPN)?",
 "Describe how a packet-switched network transmits data.",
-"Compare IPv4 and IPv6 in terms of structure and use." ]
+"Compare IPv4 and IPv6 in terms of structure and use." ],
+
+["What is the role of cookies in web browsing?", 
+"Explain the difference between HTTP and HTTPS.",
+"Describe the purpose of a web browser cache.", 
+"What is the function of a firewall in network security?",
+"Explain how a proxy server can enhance security and improve performance.",]
 ]
 
 #sublist index of each topic
